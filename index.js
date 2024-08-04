@@ -1,5 +1,4 @@
 const Venan = require('./lib/venan');
-const { sequelize, User } = require('./lib/database');
 
 module.exports = {
   Venan,
