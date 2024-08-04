@@ -1,0 +1,38 @@
+{
+  "name": "venanjs",
+  "version": "1.0.0",
+  "description": "A web framework inspired by Express.js",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "node tests/venan.test.js"
+  },
+  "scripts": {
+    "start": "node examples/app.js",
+    "venan": "node examples/app.js",
+    "test": "mocha tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvannoVenancio/VenanJS.git"
+  },
+  "keywords": [
+    "web",
+    "venan",
+    "nodejs",
+    "framework"
+  ],
+  "author": "Ivanno Venâncio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvannoVenancio/VenanJS/issues"
+  },
+  "homepage": "https://github.com/IvannoVenancio/VenanJS#readme",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "mocha": "^10.0.0",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
